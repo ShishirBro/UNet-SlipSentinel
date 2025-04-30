@@ -1,0 +1,20 @@
+name: landslide_det
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - h5py
+  - glob2
+  - matplotlib
+  - scikit-learn
+  - tensorflow=2.12
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+      - google-colab
+      - tensorflow-addons  # Optional if using custom metrics like F1
